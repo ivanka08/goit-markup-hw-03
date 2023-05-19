@@ -49,6 +49,12 @@ img {
     padding-right: 15px;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
 /* ====================================== HEADER =========================================== */
 .page-header {
     border-bottom: 1px solid #E7E9FC;
@@ -120,9 +126,19 @@ img {
 
 .hero {
     background-color: var(--second-color-text);
+    text-align: center;
+}
+
+.hero-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {
+    max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -131,11 +147,15 @@ img {
 }
 
 .button {
+    display: inline-block;
+    min-width: 169px;
+    padding: 16px 32px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     font-family: 'Roboto', sans-serif;
     font-size: inherit;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: var(--accent-color-text);
@@ -147,7 +167,21 @@ img {
     background-color: var(--second-accent-color-text);
 }
 
+.features-container {
+    padding-top: 120px;
+}
+
+.features-list {
+    display: flex;
+    column-gap: 24px;
+}
+
+.features-list > li {
+    max-width: 264px;
+}
+
 .features-title {
+    margin-bottom: 8px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -160,7 +194,13 @@ img {
     color: var(--main-color-text);
 }
 
+.wawd-list {
+    display: flex;
+    column-gap: 24px;
+}
+
 .wawd-title {
+    margin-bottom: 72px;
     color: var(--second-color-text);
     font-size: 36px;
     line-height: 1.11;
@@ -169,11 +209,17 @@ img {
     text-transform: capitalize;
 }
 
+.our-team-list {
+    display: flex;
+    column-gap: 24px;
+}
+
 .our-team {
     background: #F4F4FD;
 }
 
 .our-team-title {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -189,6 +235,7 @@ img {
 }
 
 .our-team-name {
+    margin-bottom: 8px;
     font-size: 20px;
     line-height: 1.2;
     text-align: center;
@@ -197,12 +244,25 @@ img {
 }
 
 .our-team-work {
+    margin-bottom: 8px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--main-color-text);
 }
 
+.our-team-card {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* .our-team-networks {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+} */
 
 /* Portfolio-main */
 
@@ -248,14 +308,17 @@ img {
 
 .footer {
     background-color: var(--second-color-text);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo-part-footer {
     color: #F4F4FD;
-    ;
 }
 
 .footer-descr {
+    margin-top: 16px;
+    max-width: 264px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
