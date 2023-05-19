@@ -20,177 +20,213 @@
 
   <body>
     <!-- header -->
-    <header>
-      <nav class="nav">
-        <a class="link logo" href="./index.html"
-          >Web<span class="logo-part">Studio</span></a
-        >
-        <ul class="list">
-          <li><a class="link menu-nav" href="./index.html">Studio</a></li>
-          <li>
-            <a class="link menu-nav" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="link menu-nav" href="">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="contacts">
-        <ul class="list">
-          <li>
-            <a class="link contact-item" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="link contact-item" href="tel:+110001111111">
-              +11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="page-header">
+      <div class="container header-container">
+        <nav class="menu">
+          <a class="link logo" href="./index.html"
+            >Web<span class="logo-part">Studio</span></a
+          >
+          <ul class="list navigation">
+            <li><a class="link menu-nav" href="./index.html">Studio</a></li>
+            <li>
+              <a class="link menu-nav" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="link menu-nav" href="">Contacts</a></li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="list contacts">
+            <li>
+              <a class="link contact-item" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link contact-item" href="tel:+110001111111">
+                +11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <!-- main -->
     <main>
       <section>
-        <h1 hidden>Examples of work</h1>
-        <ul class="list">
-          <li><button class="portfolio-filter" type="button">All</button></li>
-          <li>
-            <button class="portfolio-filter" type="button">Web Site</button>
-          </li>
-          <li>
-            <button class="portfolio-filter" type="button">App</button>
-          </li>
-          <li>
-            <button class="portfolio-filter" type="button">Design</button>
-          </li>
-          <li>
-            <button class="portfolio-filter" type="button">Marketing</button>
-          </li>
-        </ul>
+        <div class="container examples-container">
+          <h1 hidden>Examples of work</h1>
+          <ul class="list filter-list">
+            <li class="filter">
+              <button class="portfolio-filter" type="button">All</button>
+            </li>
+            <li class="filter">
+              <button class="portfolio-filter" type="button">Web Site</button>
+            </li>
+            <li class="filter">
+              <button class="portfolio-filter" type="button">App</button>
+            </li>
+            <li class="filter">
+              <button class="portfolio-filter" type="button">Design</button>
+            </li>
+            <li class="filter">
+              <button class="portfolio-filter" type="button">Marketing</button>
+            </li>
+          </ul>
+        </div>
 
-        <ul class="list">
-          <li class="examples-item">
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/pex-1.jpg"
-                alt="mobile app"
-                width="360"
-                height="300"
-              />
-              <h2 class="examles-title">Banking App Interface Concept</h2>
-              <p class="examples-descr">App</p></a
-            >
-          </li>
-          <li class="examples-item">
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/pex-2.jpg"
-                alt="phone with qr-code"
-                width="360"
-                height="300"
-              />
-              <h2 class="examles-title">Cashless Payment</h2>
-              <p class="examples-descr">Marketing</p></a
-            >
-          </li>
-          <li class="examples-item">
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/pex-3.jpg"
-                alt="laptop and phone"
-                width="360"
-                height="300"
-              />
-              <h2 class="examles-title">Meditation App</h2>
-              <p class="examples-descr">App</p></a
-            >
-          </li>
-          <li class="examples-item">
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/pex-4.jpg"
-                alt="car inside"
-                width="360"
-                height="300"
-              />
-              <h2 class="examles-title">Taxi Service</h2>
-              <p class="examples-descr">Marketing</p></a
-            >
-          </li>
-          <li class="examples-item">
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/pex-5.jpg"
-                alt="phone screen"
-                width="360"
-                height="300"
-              />
-              <h2 class="examles-title">Screen Illustrations</h2>
-              <p class="examples-descr">Design</p></a
-            >
-          </li>
-          <li class="examples-item">
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/pex-6.jpg"
-                alt="girl with phone"
-                width="360"
-                height="300"
-              />
-              <h2 class="examles-title">Online Courses</h2>
-              <p class="examples-descr">Marketing</p></a
-            >
-          </li>
-          <li class="examples-item">
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/pex-7.jpg"
-                alt="instagram stories"
-                width="360"
-                height="300"
-              />
-              <h2 class="examles-title">Instagram Stories Concept</h2>
-              <p class="examples-descr">Design</p></a
-            >
-          </li>
-          <li class="examples-item">
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/pex-8.jpg"
-                alt="food"
-                width="360"
-                height="300"
-              />
-              <h2 class="examles-title">Organic Food</h2>
-              <p class="examples-descr">Web Site</p></a
-            >
-          </li>
-          <li class="examples-item">
-            <a class="link" href="">
-              <img
-                src="./images/portfolio/pex-9.jpg"
-                alt="cup of coffee"
-                width="360"
-                height="300"
-              />
-              <h2 class="examles-title">Fresh Coffee</h2>
-              <p class="examples-descr">Web Site</p></a
-            >
-          </li>
-        </ul>
+        <div class="container second-examples-container">
+          <ul class="list examples">
+            <li class="examples-item">
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/pex-1.jpg"
+                  alt="mobile app"
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                <h2 class="examles-title">Banking App Interface Concept</h2>
+                <p class="examples-descr">App</p></a
+              >
+                </div>
+            </li>
+
+            <li class="examples-item">
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/pex-2.jpg"
+                  alt="phone with qr-code"
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                <h2 class="examles-title">Cashless Payment</h2>
+                <p class="examples-descr">Marketing</p></a
+              >
+                </div>
+            </li>
+
+            <li class="examples-item">
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/pex-3.jpg"
+                  alt="laptop and phone"
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                <h2 class="examles-title">Meditation App</h2>
+                <p class="examples-descr">App</p></a
+              >
+                </div>
+            </li>
+
+            <li class="examples-item">
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/pex-4.jpg"
+                  alt="car inside"
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                <h2 class="examles-title">Taxi Service</h2>
+                <p class="examples-descr">Marketing</p></a
+              >
+                </div>
+            </li>
+
+            <li class="examples-item">
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/pex-5.jpg"
+                  alt="phone screen"
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                <h2 class="examles-title">Screen Illustrations</h2>
+                <p class="examples-descr">Design</p></a
+              >
+                </div>
+            </li>
+
+            <li class="examples-item">
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/pex-6.jpg"
+                  alt="girl with phone"
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                <h2 class="examles-title">Online Courses</h2>
+                <p class="examples-descr">Marketing</p></a
+              >
+                </div>
+            </li>
+
+            <li class="examples-item">
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/pex-7.jpg"
+                  alt="instagram stories"
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                <h2 class="examles-title">Instagram Stories Concept</h2>
+                <p class="examples-descr">Design</p></a
+              >
+                </div>
+            </li>
+
+            <li class="examples-item">
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/pex-8.jpg"
+                  alt="food"
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                <h2 class="examles-title">Organic Food</h2>
+                <p class="examples-descr">Web Site</p></a
+              >
+                </div>
+            </li>
+
+            <li class="examples-item">
+              <a class="link" href="">
+                <img
+                  src="./images/portfolio/pex-9.jpg"
+                  alt="cup of coffee"
+                  width="360"
+                  height="300"
+                />
+                <div class="card">
+                <h2 class="examles-title">Fresh Coffee</h2>
+                <p class="examples-descr">Web Site</p></a
+              >
+                </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-- footer -->
     <footer class="footer">
-      <a class="link logo" href="./index.html"
-        >Web<span class="logo-part-footer">Studio</span></a
-      >
-      <p class="footer-descr">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a class="link logo" href="./index.html"
+          >Web<span class="logo-part-footer">Studio</span></a
+        >
+        <p class="footer-descr">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

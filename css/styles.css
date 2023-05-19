@@ -94,6 +94,7 @@ img {
 }
 
 .menu-nav {
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--second-color-text);
@@ -266,14 +267,28 @@ img {
 
 /* Portfolio-main */
 
+.examples-container {
+    padding-top: 96px;
+    padding-bottom: 72px;
+}
+
+.filter-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+}
+
 .portfolio-filter {
+    padding: 12px 24px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
     background: #F4F4FD;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.04em;
     color: var(--accent-color-text);
     cursor: pointer;
@@ -285,11 +300,38 @@ img {
     color: #FFFFFF;
 }
 
-.examples-item {
-    border: 1px solid #E7E9FC;
+.second-examples-container {
+    margin-bottom: 120px;
 }
 
+.examples {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-right: -24px;
+    margin-bottom: -48px;
+}
+
+.examples-item {
+    margin-right: 24px;
+    margin-bottom: 48px;
+
+}
+
+.card {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    border-bottom: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-left: 1px solid #E7E9FC;
+}
+
+
 .examles-title {
+    margin-bottom: 8px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
