@@ -68,7 +68,6 @@ img {
 .menu {
     display: flex;
     align-items: center;
-    padding: 24px 0;
 }
 
 .logo {
@@ -110,6 +109,7 @@ img {
     align-items: center;
     font-style: normal;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .contact-item {
