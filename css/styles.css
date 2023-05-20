@@ -61,12 +61,14 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    padding: 24px 0;
+    padding: 0 15px;
+
 }
 
 .menu {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .logo {
@@ -125,11 +127,9 @@ img {
 .hero {
     background-color: var(--second-color-text);
     text-align: center;
+    padding: 188px 0
 }
 
-.hero-container {
-    padding: 188px 0;
-}
 
 .hero-title {
     max-width: 496px;
@@ -166,9 +166,6 @@ img {
     background-color: var(--second-accent-color-text);
 }
 
-.features-container {
-    padding-top: 120px;
-}
 
 .features-list {
     display: flex;
@@ -195,7 +192,11 @@ img {
 
 .wawd-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
+}
+
+.wawd-item {
+    width: calc((100% - 48px) / 3);
 }
 
 .wawd-title {
