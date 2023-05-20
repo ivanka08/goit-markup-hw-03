@@ -45,13 +45,11 @@ img {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
 }
 
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
 }
 
 
@@ -63,8 +61,7 @@ img {
 .header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 
 .menu {
@@ -73,6 +70,7 @@ img {
 }
 
 .logo {
+    margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     color: var(--accent-color-text);
     font-size: 18px;
@@ -82,14 +80,13 @@ img {
 }
 
 .logo-part {
-    margin-right: 76px;
     color: var(--second-color-text);
 }
 
 .navigation {
     display: flex;
     align-items: center;
-    column-gap: 40px;
+    gap: 40px;
     margin-right: 332px;
 }
 
@@ -109,7 +106,7 @@ img {
     display: flex;
     align-items: center;
     font-style: normal;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .contact-item {
@@ -131,8 +128,7 @@ img {
 }
 
 .hero-container {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -148,7 +144,9 @@ img {
 }
 
 .button {
-    display: inline-block;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     min-width: 169px;
     padding: 16px 32px;
     border: none;
@@ -174,7 +172,7 @@ img {
 
 .features-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .features-list > li {
@@ -212,7 +210,7 @@ img {
 
 .our-team-list {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
 }
 
 .our-team {
@@ -319,9 +317,7 @@ img {
 }
 
 .card {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px;
+    padding: 32px 16px;
     border-bottom: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
