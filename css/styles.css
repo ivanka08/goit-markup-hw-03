@@ -71,6 +71,7 @@ img {
 
 
 .logo {
+    padding: 24px 0;
     margin-right: 76px;
     font-family: 'Raleway', sans-serif;
     color: var(--accent-color-text);
@@ -85,7 +86,6 @@ img {
 }
 
 .navigation {
-    padding: 24px 0;
     display: flex;
     align-items: center;
     gap: 40px;
