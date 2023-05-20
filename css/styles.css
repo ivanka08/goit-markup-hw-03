@@ -69,9 +69,6 @@ img {
     align-items: center;
 }
 
-.menu > a {
-    padding: 24px 0;
-}
 
 .logo {
     margin-right: 76px;
@@ -95,6 +92,7 @@ img {
 }
 
 .menu-nav {
+    padding: 24px 0;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
