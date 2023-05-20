@@ -269,11 +269,12 @@ img {
 
 .examples-container {
     padding-top: 96px;
-    padding-bottom: 72px;
+    padding-bottom: 120px;
 }
 
 .filter-list {
     display: flex;
+    margin-bottom: 72px;
     justify-content: center;
     align-items: center;
     column-gap: 24px;
@@ -298,11 +299,9 @@ img {
 .portfolio-filter:focus {
     background-color: var(--second-accent-color-text);
     color: #FFFFFF;
+    border: 1px solid transparent;
 }
 
-.second-examples-container {
-    margin-bottom: 120px;
-}
 
 .examples {
     padding: 0;
