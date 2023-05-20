@@ -85,6 +85,7 @@ img {
 }
 
 .navigation {
+    padding: 24px 0;
     display: flex;
     align-items: center;
     gap: 40px;
@@ -92,7 +93,6 @@ img {
 }
 
 .menu-nav {
-    padding: 24px 0;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
